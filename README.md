@@ -9,9 +9,8 @@ netagent是一个内网穿透工具，本项目是基于netty实现，可以实�
    usage: options  
      -help     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;      Help  
      -password \<arg>  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  X-Server password（默认：123456）  
-     -port \<arg>      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  X-Server port（默认：1024）  
+     -port \<arg>      &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  X-Server port（默认：1024  ）（agent-server 运行端口）
 
- 
 **示例：**
 
 ```sh
@@ -30,7 +29,7 @@ usage: options
  -remote_port \<arg>  &ensp;&ensp;&ensp;&ensp;  proxy server remote port（本地需要进行穿透的服务在agent-server映射的端口）  
  -proxy_ip \<arg>     &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  proxy server ip （本地需要进行穿透的服务的IP地址）  
  -proxy_port \<arg>    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  proxy server port （本地需要进行穿透的服务的端口）  
- 
+
 **示例：**
 
 ```sh
